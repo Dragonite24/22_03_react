@@ -1,0 +1,31 @@
+.Contacts {
+  width: 524px;
+  height: auto;
+  border-radius: 16px;
+  background-color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &_search {
+    height: 64px;
+    width: 100%;
+  }
+
+  &_list {
+    height: auto;
+    max-height: 500px;
+    padding: 8px;
+    width: 100%;
+    border-bottom: 0.6px solid #D0D5DD;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+  &_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 16px 24px;
+    gap: 24px;
+  }
+}

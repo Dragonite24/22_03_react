@@ -1,0 +1,19 @@
+.Button {
+  border: unset;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 133px;
+  height: 36px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #3F9BFC;
+  color: white;
+
+
+  &_outlined {
+    border: 1px solid #EAECF0;
+    background-color: white;
+    color: #667085;
+  }
+}
